@@ -4,6 +4,16 @@ h1 {
     text-align: center;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+/* 
+    a:hover { color: black; }
+    add hover colour after figuring out the colour scheme for site 
+*/
+
 img {
     border: 2px solid rgb(2, 6, 255);
     padding: 5px;
@@ -37,9 +47,10 @@ img {
     font-size: 24px;
 }
 
-.links p {
-    margin: 0;
-    padding-left: 20px;
+.links a { 
+    margin: 2;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
+    padding-left: 20px;
+    /* add text colour after figuring out the colour scheme for site */
 }
