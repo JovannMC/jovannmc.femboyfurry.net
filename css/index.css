@@ -2,6 +2,7 @@ h1 {
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    padding-top: 1rem;
 }
 
 body {
@@ -15,9 +16,9 @@ body {
 */
 
 /* Desktop */
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
     img {
-        border: 0.1rem solid rgb(2, 6, 255);
+        border: 0.2rem solid rgb(2, 6, 255);
         padding: 0.5rem;
         border-radius: 2rem;
         width: auto;
@@ -28,20 +29,18 @@ body {
         /* temporary colour */
         background-color: aqua;
         display: flex;
-        flex-direction: row;
         padding: 2.5rem;
-        width: 60%;
+        width: 50%;
         margin: 10rem auto 0 auto;
-        margin-top: auto;
+        align-items: center;
+        justify-content: center;
     }
     
     .description h1 {
-        margin: 0;
-        padding-left: 1.5rem;
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
-        display: flex;
-        flex-direction: row;
+        margin-top: -0.5rem;
+        padding-left: 1.5rem;
     }
     
     .description p {
@@ -49,21 +48,59 @@ body {
         padding-left: 1.5rem;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
+        text-align: center;
     }
 
-    .links { margin-bottom: auto; }
+    .links { padding-top: 12rem; text-align: center; }
     
     .links a { 
-        margin-bottom: auto;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
-        padding-left: 1.5rem;
         /* add text colour after figuring out the colour scheme for site */
     }
 }
 
-/* TODO: Mobile 
-@media (max-width: 999px) {
+/* TODO: Mobile */
+@media (max-width: 1199px) {
+
+    img {
+        border: 0.2rem solid rgb(2, 6, 255);
+        border-radius: 2rem;
+        width: auto;
+        height: auto;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: 1rem;
+    }
+
+    .flex-container {
+        /* temporary colour */
+        background-color: aqua;
+        width: auto;
+    }
+
+    .description { position: relative; top: 1rem; }
+    
+    .description h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3rem;
+        margin-top: -0.5rem;
+    }
+    
+    .description p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: -1.5rem;
+    }
+
+    .links { margin-bottom: auto; padding-bottom: 3rem; text-align: center; position: relative; top: 1rem; }
+    
+    .links a { 
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        /* add text colour after figuring out the colour scheme for site */
+    }
 
 }
-*/
