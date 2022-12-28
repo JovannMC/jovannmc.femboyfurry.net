@@ -1,24 +1,24 @@
 h1 {
-    font-size: 48px;
+    font-size: 64px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     padding-top: 1rem;
+    color:#1b1a1a
 }
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: black;
     font-size: 24px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
 }
 
-/* 
-    a:hover { color: black; }
-    add hover colour after figuring out the colour scheme for site 
-*/
+a:hover { color: #4069fd; }
 
 /* Desktop */
 @media (min-width: 1200px) {
     img {
-        border: 0.2rem solid rgb(2, 6, 255);
+        border: 0.2rem solid #474747;
         padding: 0.5rem;
         border-radius: 2rem;
         width: auto;
@@ -26,14 +26,13 @@ body {
     }
 
     .flex-container {
-        /* temporary colour */
-        background-color: aqua;
+        border-radius: 2rem;
+        background-color: #97d2ef;
         display: flex;
         padding: 2.5rem;
         width: 50%;
         margin: 10rem auto 0 auto;
         align-items: center;
-        justify-content: center;
     }
     
     .description h1 {
@@ -56,7 +55,6 @@ body {
     .links a { 
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
-        /* add text colour after figuring out the colour scheme for site */
     }
 }
 
