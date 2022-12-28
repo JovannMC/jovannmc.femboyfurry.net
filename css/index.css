@@ -14,48 +14,50 @@ body {
     add hover colour after figuring out the colour scheme for site 
 */
 
-img {
-    border: 2px solid rgb(2, 6, 255);
-    padding: 5px;
-    border-radius: 32px;
-    width: auto;
-    height: 50%;
-}
-
 /* Desktop */
 @media (min-width: 1000px) {
+    img {
+        border: 0.1rem solid rgb(2, 6, 255);
+        padding: 0.5rem;
+        border-radius: 2rem;
+        width: auto;
+        height: 50%;
+    }
+
     .flex-container {
+        /* temporary colour */
         background-color: aqua;
         display: flex;
-        justify-content: space-between;
-        padding: 40px;
+        flex-direction: row;
+        padding: 2.5rem;
         width: 60%;
         margin: 10rem auto 0 auto;
+        margin-top: auto;
     }
     
     .description h1 {
         margin: 0;
-        padding-left: 20px;
+        padding-left: 1.5rem;
         font-family: 'Roboto', sans-serif;
-        font-size: 48px;
+        font-size: 3rem;
         display: flex;
         flex-direction: row;
     }
     
     .description p {
-        margin-top: auto;
         margin: 1;
-        padding-left: 20px;
+        padding-left: 1.5rem;
         font-family: 'Roboto', sans-serif;
-        font-size: 24px;
+        font-size: 1.5rem;
     }
+
+    .links { margin-bottom: auto; }
     
     .links a { 
         margin-bottom: auto;
-        margin: 2;
         font-family: 'Roboto', sans-serif;
-        font-size: 24px;
-        padding-left: 20px;
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
         /* add text colour after figuring out the colour scheme for site */
     }
 }
