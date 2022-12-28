@@ -19,38 +19,49 @@ img {
     padding: 5px;
     border-radius: 32px;
     width: auto;
-    height: auto;
+    height: 50%;
 }
 
-.flex-container {
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    width: 60%;
-    margin: 10rem auto 0 auto;
+/* Desktop */
+@media (min-width: 1000px) {
+    .flex-container {
+        background-color: aqua;
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        width: 60%;
+        margin: 10rem auto 0 auto;
+    }
+    
+    .description h1 {
+        margin: 0;
+        padding-left: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 48px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .description p {
+        margin-top: auto;
+        margin: 1;
+        padding-left: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+    }
+    
+    .links a { 
+        margin-bottom: auto;
+        margin: 2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        padding-left: 20px;
+        /* add text colour after figuring out the colour scheme for site */
+    }
 }
 
-.description h1 {
-    margin: 0;
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 48px;
-    display: flex;
-    flex-direction: row;
-}
+/* TODO: Mobile 
+@media (max-width: 999px) {
 
-.description p {
-    margin: 1;
-    padding-left: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
 }
-
-.links a { 
-    margin: 2;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    padding-left: 20px;
-    /* add text colour after figuring out the colour scheme for site */
-}
+*/
