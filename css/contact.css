@@ -5,6 +5,13 @@ h1 {
     color:#1b1a1a
 }
 
+h3 {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:#1b1a1a
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: black;
@@ -15,23 +22,21 @@ body {
     align-items: center;
 }
 
+a { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
 a:hover { color: #4069fd; }
 
 /* Desktop */
 @media (min-width: 1200px) {
-    img {
-        border: 0.2rem solid #474747;
-        border-radius: 2rem;
-        width: auto;
-    }
-    
     .flex-container {
         border-radius: 2rem;
         background-color: #97d2ef;
         display: flex;
         flex-direction: row;
         padding: 2.5rem;
-        width: 60%;
         margin: 10rem auto 0 auto;
     }
     
@@ -39,7 +44,6 @@ a:hover { color: #4069fd; }
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding-left: 1.5rem;
         text-align: center;
     }
 
@@ -48,12 +52,10 @@ a:hover { color: #4069fd; }
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
         margin-top: -0.5rem;
-        padding-left: 1.5rem;
         align-self: center;
     }
 
     .description p {
-        padding-left: 1.5rem;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         text-align: center;
@@ -64,25 +66,10 @@ a:hover { color: #4069fd; }
         flex-direction: column;
         align-items: flex-start;
     }
-    
-    .links a {
-        font-size: 1.5rem;
-    }
 }
 
 /* Mobile */
 @media (max-width: 1199px) {
-
-    img {
-        border: 0.2rem solid #474747;
-        border-radius: 2rem;
-        width: auto;
-        height: auto;
-        margin: auto;
-        display: block;
-        position: relative;
-        top: 1rem;
-    }
 
     .flex-container {
         border-radius: 2rem;
@@ -105,10 +92,10 @@ a:hover { color: #4069fd; }
         margin-top: -1.5rem;
     }
 
-    .links { margin-bottom: auto; padding-bottom: 3rem; text-align: center; position: relative; top: 1rem; }
-    
-    .links a { 
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.5rem;
+    .content {
+        display: flex;
+        flex-direction: column;
     }
+
+    .links { margin-bottom: auto; padding-bottom: 3rem; text-align: center; position: relative; top: 1rem; }
 }
