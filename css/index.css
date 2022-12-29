@@ -1,16 +1,18 @@
 h1 {
-    font-size: 64px;
+    font-size: 4rem;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding-top: 1rem;
     color:#1b1a1a
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     color: black;
-    font-size: 24px;
+    font-size: 1.5rem;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a:hover { color: #4069fd; }
@@ -19,50 +21,60 @@ a:hover { color: #4069fd; }
 @media (min-width: 1200px) {
     img {
         border: 0.2rem solid #474747;
-        padding: 0.5rem;
         border-radius: 2rem;
         width: auto;
-        height: 50%;
     }
-
+    
     .flex-container {
         border-radius: 2rem;
         background-color: #97d2ef;
         display: flex;
+        flex-direction: row;
         padding: 2.5rem;
         width: 50%;
         margin: 10rem auto 0 auto;
-        align-items: center;
     }
     
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 1.5rem;
+        text-align: center;
+    }
+
     .description h1 {
+        margin: 0;
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
         margin-top: -0.5rem;
         padding-left: 1.5rem;
+        align-self: center;
     }
-    
+
     .description p {
-        margin: 1;
         padding-left: 1.5rem;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         text-align: center;
     }
-
-    .links { padding-top: 12rem; text-align: center; }
     
-    .links a { 
-        font-family: 'Roboto', sans-serif;
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .links a {
         font-size: 1.5rem;
     }
 }
 
-/* TODO: Mobile */
+/* Mobile */
 @media (max-width: 1199px) {
 
     img {
-        border: 0.2rem solid rgb(2, 6, 255);
+        border: 0.2rem solid #474747;
         border-radius: 2rem;
         width: auto;
         height: auto;
@@ -73,8 +85,8 @@ a:hover { color: #4069fd; }
     }
 
     .flex-container {
-        /* temporary colour */
-        background-color: aqua;
+        border-radius: 2rem;
+        background-color: #97d2ef;
         width: auto;
     }
 
@@ -83,7 +95,7 @@ a:hover { color: #4069fd; }
     .description h1 {
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
-        margin-top: -0.5rem;
+        margin-top: 0.5rem;
     }
     
     .description p {
@@ -98,7 +110,5 @@ a:hover { color: #4069fd; }
     .links a { 
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
-        /* add text colour after figuring out the colour scheme for site */
     }
-
 }
