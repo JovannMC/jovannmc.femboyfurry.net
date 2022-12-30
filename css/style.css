@@ -25,6 +25,7 @@ body {
 a { 
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
+    text-decoration: none;
 }
 
 a:hover { color: #4069fd; }
