@@ -27,7 +27,7 @@ a {
     font-size: 1.5rem;
     text-decoration: none;
 }
-
+a:visited{ color: blue; }
 a:hover { color: #4069fd; }
 
 /* Desktop */
