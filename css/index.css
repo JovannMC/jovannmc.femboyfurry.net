@@ -1,4 +1,12 @@
-h1 {
+header {
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color:#1b1a1a;
+    display: block;
+}
+
+h1 { 
     font-size: 4rem;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -26,7 +34,8 @@ a:hover { color: #4069fd; }
     img {
         border: 0.2rem solid #474747;
         border-radius: 2rem;
-        width: auto;
+        width: 100%;
+        height: 100%;
     }
     
     .flex-container {
@@ -36,6 +45,7 @@ a:hover { color: #4069fd; }
         flex-direction: row;
         padding: 2.5rem;
         width: 60%;
+        height: auto;
         position: absolute;
         left: 50%;
         top: 50%;
