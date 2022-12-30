@@ -33,7 +33,12 @@ body {
 	}
 }
 
-a { text-decoration: none; }
+a { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: blue;
+}
 a:visited{ color: blue; }
 a:hover { color: #4069fd; }
 
@@ -98,10 +103,6 @@ a:hover { color: #4069fd; }
     }
 
     .content h1 { position:relative; }
-    
-    .links a {
-        font-size: 1.5rem;
-    }
 }
 
 /* Mobile */
@@ -141,9 +142,4 @@ a:hover { color: #4069fd; }
     }
 
     .links { margin-bottom: auto; padding-bottom: 3rem; text-align: center; position: relative; top: 1rem; }
-    
-    .links a { 
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.5rem;
-    }
 }
