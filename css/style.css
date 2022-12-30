@@ -106,6 +106,8 @@ a:hover { color: #4069fd; }
         border-radius: 2rem;
         background-color: #97d2ef;
         width: auto;
+        margin: auto;
+        padding: 0 2rem 0 2rem;
     }
 
     .card-container { position: relative; top: 1rem; }
@@ -128,5 +130,5 @@ a:hover { color: #4069fd; }
         flex-direction: column;
     }
 
-    .links { margin-bottom: auto; padding-bottom: 3rem; text-align: center; position: relative; top: 1rem; }
+    .links { margin-bottom: auto; padding-bottom: 3.5rem; text-align: center; position: relative; top: 1rem; }
 }

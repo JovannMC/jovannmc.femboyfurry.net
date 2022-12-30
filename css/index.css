@@ -48,7 +48,6 @@ a:hover { color: #4069fd; }
         flex-direction: row;
         padding: 2.5rem;
         width: 72rem;
-        height: auto;
         margin: auto;
     }
     
@@ -107,6 +106,7 @@ a:hover { color: #4069fd; }
         border-radius: 2rem;
         background-color: #97d2ef;
         width: auto;
+        padding: 1rem 2rem 1rem 2rem;
     }
 
     .card-container { position: relative; top: 1rem; }
