@@ -1,11 +1,3 @@
-header {
-    font-size: 4rem;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    color:#1b1a1a;
-    display: block;
-}
-
 h1 { 
     font-size: 4rem;
     font-family: 'Roboto', sans-serif;
@@ -18,7 +10,9 @@ body {
     color: black;
     font-size: 1.5rem;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
-    display: flex;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
     flex-direction: column;
     align-items: center;
 }
@@ -29,16 +23,25 @@ a:hover { color: #4069fd; }
 
 /* Desktop */
 @media (min-width: 1200px) {
-    h1 { position: fixed; }
 
     img {
         border: 0.2rem solid #474747;
         border-radius: 2rem;
-        width: 100%;
-        height: 100%;
+        width: auto;
+    }
+
+    .header-container {
+        margin-top: -1.5rem;
+        margin-bottom: -1.5rem;
     }
     
-    .flex-container {
+    .header-container h1 {
+        font-size: 4rem;
+        font-family: 'Roboto', sans-serif;
+        color:#1b1a1a;
+    }
+    
+    .content-container {
         border-radius: 2rem;
         background-color: #97d2ef;
         display: flex;
@@ -46,13 +49,10 @@ a:hover { color: #4069fd; }
         padding: 2.5rem;
         width: 60%;
         height: auto;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        margin: auto;
     }
     
-    .description {
+    .card-container {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -60,7 +60,7 @@ a:hover { color: #4069fd; }
         text-align: center;
     }
 
-    .description h1 {
+    .card-container h1 {
         margin: 0;
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
@@ -69,7 +69,7 @@ a:hover { color: #4069fd; }
         align-self: center;
     }
 
-    .description p {
+    .card-container p {
         padding-left: 1.5rem;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
@@ -103,21 +103,21 @@ a:hover { color: #4069fd; }
         top: 1rem;
     }
 
-    .flex-container {
+    .content-container {
         border-radius: 2rem;
         background-color: #97d2ef;
         width: auto;
     }
 
-    .description { position: relative; top: 1rem; }
+    .card-container { position: relative; top: 1rem; }
     
-    .description h1 {
+    .card-container h1 {
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
         margin-top: 0.5rem;
     }
     
-    .description p {
+    .card-container p {
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         text-align: center;

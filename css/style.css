@@ -17,7 +17,9 @@ body {
     color: black;
     font-size: 1.5rem;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
-    display: flex;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr;
     flex-direction: column;
     align-items: center;
 }
@@ -36,37 +38,49 @@ a:hover { color: #4069fd; }
         border: 0.2rem solid #474747;
         border-radius: 2rem;
         width: auto;
-        align-self: center;
     }
 
-    .flex-container {
+    .header-container {
+        margin-top: -1.5rem;
+        margin-bottom: -1rem;
+    }
+    
+    .header-container h1 {
+        font-size: 4rem;
+        font-family: 'Roboto', sans-serif;
+        color:#1b1a1a;
+    }
+    
+    .content-container {
         border-radius: 2rem;
         background-color: #97d2ef;
         display: flex;
         flex-direction: row;
         padding: 2.5rem;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        width: 60%;
+        height: auto;
+        margin: auto;
     }
     
-    .description {
+    .card-container {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        padding-left: 1.5rem;
         text-align: center;
     }
 
-    .description h1 {
+    .card-container h1 {
         margin: 0;
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
         margin-top: -0.5rem;
+        padding-left: 1.5rem;
         align-self: center;
     }
 
-    .description p {
+    .card-container p {
+        padding-left: 1.5rem;
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         text-align: center;
@@ -90,24 +104,24 @@ a:hover { color: #4069fd; }
         margin: auto;
         display: block;
         position: relative;
-        top: -2rem;
+        top: 1rem;
     }
 
-    .flex-container {
+    .content-container {
         border-radius: 2rem;
         background-color: #97d2ef;
         width: auto;
     }
 
-    .description { position: relative; top: 1rem; }
+    .card-container { position: relative; top: 1rem; }
     
-    .description h1 {
+    .card-container h1 {
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
         margin-top: 0.5rem;
     }
     
-    .description p {
+    .card-container p {
         font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         text-align: center;
