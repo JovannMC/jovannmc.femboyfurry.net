@@ -2,7 +2,7 @@ h1 {
     font-size: 4rem;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    color:#1b1a1a
+    color:#1b1a1a;
 }
 
 h3 {
@@ -32,13 +32,23 @@ a:hover { color: #4069fd; }
 
 /* Desktop */
 @media (min-width: 1200px) {
+    img {
+        border: 0.2rem solid #474747;
+        border-radius: 2rem;
+        width: auto;
+        align-self: center;
+    }
+
     .flex-container {
         border-radius: 2rem;
         background-color: #97d2ef;
         display: flex;
         flex-direction: row;
         padding: 2.5rem;
-        margin: 10rem auto 0 auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
     
     .description {
@@ -71,6 +81,17 @@ a:hover { color: #4069fd; }
 
 /* Mobile */
 @media (max-width: 1199px) {
+
+    img {
+        border: 0.2rem solid #474747;
+        border-radius: 2rem;
+        width: auto;
+        height: auto;
+        margin: auto;
+        display: block;
+        position: relative;
+        top: -2rem;
+    }
 
     .flex-container {
         border-radius: 2rem;
