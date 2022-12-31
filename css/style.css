@@ -28,15 +28,10 @@ body {
     color: black;
     font-size: 1.5rem;
     min-height: 100vh;
-    display: grid;
-    grid-template-rows: auto 1fr;
-    flex-direction: column;
-    align-items: center;
     background: linear-gradient(-45deg, #40e7fd, #40a8fd, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 13s ease infinite;
-	height: 100vh;
-    
+    display: flex;
 }
 
 @keyframes gradient {
@@ -94,17 +89,14 @@ a:hover { color: #4069fd; }
         width: auto;
     }
 
-    .header-container {
-        margin-top: -1.5rem;
-        margin-bottom: -1rem;
+    .box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
     }
-    
-    .header-container h1 {
-        font-size: 4rem;
-        font-family: 'Roboto', sans-serif;
-        color:#1b1a1a;
-    }
-    
+
     .content-container {
         border-radius: 2rem;
         background-color: #97d2ef;
