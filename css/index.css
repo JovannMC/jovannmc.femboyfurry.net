@@ -42,10 +42,9 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     text-decoration: none;
-    color: blue;
+    color: black;
 }
-a:visited{ color: blue; }
-a:hover { color: #4069fd; }
+a:visited{ color: black; }
 
 /* Desktop */
 @media (min-width: 1200px) {
@@ -133,5 +132,4 @@ a:hover { color: #4069fd; }
         margin-top: -1.5rem;
     }
 
-    .links { margin-bottom: auto; padding-bottom: 3rem; text-align: center; position: relative; top: 1rem; }
 }
