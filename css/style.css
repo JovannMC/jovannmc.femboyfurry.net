@@ -54,6 +54,7 @@ a {
     color: white;
 }
 a:visited{ color: white; }
+a:hover { color:black; }
 
 /* Desktop */
 @media (min-width: 1200px) {
