@@ -21,6 +21,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     color:#1b1a1a;
+    padding-bottom: 1rem;
 }
 
 body {
@@ -50,10 +51,9 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     text-decoration: none;
-    color: blue;
+    color: white;
 }
-a:visited{ color: blue; }
-a:hover { color: #4069fd; }
+a:visited{ color: white; }
 
 /* Desktop */
 @media (min-width: 1200px) {
@@ -143,11 +143,6 @@ a:hover { color: #4069fd; }
         font-size: 1.5rem;
         text-align: center;
         margin-top: -1.5rem;
-    }
-
-    .content {
-        display: flex;
-        flex-direction: column;
     }
 
     .links { margin-bottom: auto; padding-bottom: 3.5rem; text-align: center; position: relative; top: 1rem; }

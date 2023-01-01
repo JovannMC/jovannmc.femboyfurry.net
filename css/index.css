@@ -43,10 +43,9 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     text-decoration: none;
-    color: blue;
+    color: white;
 }
-a:visited{ color: blue; }
-a:hover { color: #4069fd; }
+a:visited{ color: white; }
 
 /* Desktop */
 @media (min-width: 1200px) {
@@ -111,15 +110,22 @@ a:hover { color: #4069fd; }
         border-radius: 2rem;
         background-color: #97d2ef;
         width: auto;
-        padding: 1rem 2rem 1rem 2rem;
+        padding: 1rem 2rem 3rem 2rem;
+        margin: auto;
     }
 
-    .card-container { position: relative; top: 1rem; }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 1.5rem;
+        text-align: center;
+    }
     
     .card-container h1 {
         font-family: 'Roboto', sans-serif;
         font-size: 3rem;
-        margin-top: 0.5rem;
+        margin-top: 1.5rem;
     }
     
     .card-container p {
@@ -129,5 +135,4 @@ a:hover { color: #4069fd; }
         margin-top: -1.5rem;
     }
 
-    .links { margin-bottom: auto; padding-bottom: 3rem; text-align: center; position: relative; top: 1rem; }
 }
