@@ -10,22 +10,22 @@
 }
 
 h1 {
+    font-family: 'Roboto', arial, sans-serif;
     font-size: 4rem;
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     color:#1b1a1a;
 }
 
 h3 {
+    font-family: 'Roboto', arial, sans-serif;
     font-size: 2rem;
-    font-family: 'Roboto', sans-serif;
     text-align: center;
     color:#1b1a1a;
     padding-bottom: 1rem;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', arial, sans-serif;
     color: black;
     font-size: 1.5rem;
     min-height: 100vh;
@@ -48,7 +48,7 @@ body {
 }
 
 a { 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', arial, sans-serif;
     font-size: 1.5rem;
     text-decoration: none;
     color: white;
@@ -90,14 +90,14 @@ a:hover { color:black; }
 
     .card-container h1 {
         margin: 0;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-size: 3rem;
         margin-top: -0.5rem;
         align-self: center;
     }
 
     .card-container p {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-size: 1.5rem;
         text-align: center;
     }
@@ -134,13 +134,13 @@ a:hover { color:black; }
     .card-container { position: relative; top: 1rem; }
     
     .card-container h1 {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-size: 3rem;
         margin-top: 0.5rem;
     }
     
     .card-container p {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-size: 1.5rem;
         text-align: center;
         margin-top: -1.5rem;
