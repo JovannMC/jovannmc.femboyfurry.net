@@ -1,4 +1,4 @@
-# jovannmc.github.io
+# jovannmc.github.net
 Welcome to my website's repository, hosted at https://jovannmc.femboyfurry.net!<br>
 Here you can explore the code and roast the absolute trash code I've made!<br>
 <br>
