@@ -10,14 +10,14 @@
 }
 
 h1 { 
+    font-family: 'Roboto', arial, sans-serif;
     font-size: 4rem;
-    font-family: 'Roboto', sans-serif;
     text-align: center;
-    color:#1b1a1a;
+    color: #1b1a1a;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', arial, sans-serif;
     color: black;
     font-size: 1.5rem;
     background: linear-gradient(-45deg, #40e7fd, #40a8fd, #23d5ab);
@@ -40,13 +40,13 @@ body {
 }
 
 a { 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', arial, sans-serif;
     font-size: 1.5rem;
     text-decoration: none;
     color: white;
 }
 a:visited{ color: white; }
-a:hover { color:black; }
+a:hover { color: black; }
 
 /* Desktop */
 @media (min-width: 1200px) {
@@ -76,8 +76,8 @@ a:hover { color:black; }
     }
 
     .card-container h1 {
+        font-family: 'Roboto', arial, sans-serif;
         margin: 0;
-        font-family: 'Roboto', sans-serif;
         font-size: 3rem;
         margin-top: -0.5rem;
         padding-left: 1.5rem;
@@ -85,8 +85,8 @@ a:hover { color:black; }
     }
 
     .card-container p {
+        font-family: 'Roboto', arial, sans-serif;
         padding-left: 1.5rem;
-        font-family: 'Roboto', sans-serif;
         font-size: 1.5rem;
         text-align: center;
     }
@@ -124,13 +124,13 @@ a:hover { color:black; }
     }
     
     .card-container h1 {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-size: 3rem;
         margin-top: 1.5rem;
     }
     
     .card-container p {
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', arial, sans-serif;
         font-size: 1.5rem;
         text-align: center;
         margin-top: -1.5rem;
