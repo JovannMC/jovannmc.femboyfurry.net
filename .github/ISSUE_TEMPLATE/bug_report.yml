@@ -47,9 +47,9 @@ body:
       required: false
 
   - type: textarea
-    id: device-info
+    id: browser-info
     attributes:
-      label: Device information
+      label: Browser information
       description: Provide details about your browser, version, and resolution.
       value: |
         - Browser: [e.g. Chrome, Opera, Microsoft Edge, Firefox]
