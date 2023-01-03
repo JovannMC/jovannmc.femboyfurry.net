@@ -7,4 +7,4 @@ If you want to contribute, please make sure to follow GitHub's [Community Guidel
 [Check me out at omg.lol site!](https://furry.omg.lol/)
 
 # License
-Please check [license.md](license.md)!
+Please check out [license.md](license.md) to see license applied to other file like Roboto font, bulma, and others!
