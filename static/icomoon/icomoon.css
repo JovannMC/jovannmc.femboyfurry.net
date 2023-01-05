@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('/static/icomoon/icomoon.eot?qpa460');
-  src:  url('/static/icomoon/icomoon.eot?qpa460#iefix') format('embedded-opentype'),
-    url('/static/icomoon/icomoon.ttf?qpa460') format('truetype'),
-    url('/static/icomoon/icomoon.woff?qpa460') format('woff'),
-    url('/static/icomoon/icomoon.svg?qpa460#icomoon') format('svg');
+  src:  url('/static/icomoon/icomoon.eot?61yzhq');
+  src:  url('/static/icomoon/icomoon.eot?61yzhq#iefix') format('embedded-opentype'),
+    url('/static/icomoon/icomoon.ttf?61yzhq') format('truetype'),
+    url('/static/icomoon/icomoon.woff?61yzhq') format('woff'),
+    url('/static/icomoon/icomoon.svg?61yzhq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -33,7 +33,7 @@
   padding-right: 0.5rem;
   content: "\e907";
 }
-.icon-game-controller:before {
+.icon-game:before {
   padding-right: 0.5rem;
   content: "\e904";
 }
@@ -57,35 +57,27 @@
   padding-right: 0.5rem;
   content: "\e902";
 }
-.icon-pencil:before {
-  padding-right: 0.5rem;
-  content: "\e905";
-}
-.icon-play:before {
+.icon-yt:before {
   padding-right: 0.5rem;
   content: "\e912";
-}
-.icon-film:before {
-  padding-right: 0.5rem;
-  content: "\e913";
 }
 .icon-book:before {
   padding-right: 0.5rem;
   content: "\e91f";
 }
-.icon-profile:before {
+.icon-credits:before {
   padding-right: 0.5rem;
   content: "\e923";
 }
-.icon-folder-download:before {
+.icon-download:before {
   padding-right: 0.5rem;
   content: "\e933";
 }
-.icon-phone:before {
+.icon-contact:before {
   padding-right: 0.5rem;
   content: "\e942";
 }
-.icon-users:before {
+.icon-group:before {
   padding-right: 0.5rem;
   content: "\e972";
 }
