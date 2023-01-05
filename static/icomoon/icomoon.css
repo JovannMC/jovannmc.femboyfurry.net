@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/icomoon/icomoon.eot?qpa460');
+  src:  url('/icomoon/icomoon.eot?qpa460#iefix') format('embedded-opentype'),
+    url('/icomoon/icomoon.ttf?qpa460') format('truetype'),
+    url('/icomoon/icomoon.woff?qpa460') format('woff'),
+    url('/icomoon/icomoon.svg?qpa460#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-web:before {
+  padding-right: 0.5rem;
+  content: "\e903";
+}
+.icon-brush:before {
+  padding-right: 0.5rem;
+  content: "\e907";
+}
+.icon-game-controller:before {
+  padding-right: 0.5rem;
+  content: "\e904";
+}
+.icon-paste:before {
+  padding-right: 0.5rem;
+  content: "\e908";
+}
+.icon-servers:before {
+  padding-right: 0.5rem;
+  content: "\e906";
+}
+.icon-matrix:before {
+  padding-right: 0.5rem;
+  content: "\e900";
+}
+.icon-discord:before {
+  padding-right: 0.5rem;
+  content: "\e901";
+}
+.icon-home:before {
+  padding-right: 0.5rem;
+  content: "\e902";
+}
+.icon-pencil:before {
+  padding-right: 0.5rem;
+  content: "\e905";
+}
+.icon-play:before {
+  padding-right: 0.5rem;
+  content: "\e912";
+}
+.icon-film:before {
+  padding-right: 0.5rem;
+  content: "\e913";
+}
+.icon-book:before {
+  padding-right: 0.5rem;
+  content: "\e91f";
+}
+.icon-profile:before {
+  padding-right: 0.5rem;
+  content: "\e923";
+}
+.icon-folder-download:before {
+  padding-right: 0.5rem;
+  content: "\e933";
+}
+.icon-phone:before {
+  padding-right: 0.5rem;
+  content: "\e942";
+}
+.icon-users:before {
+  padding-right: 0.5rem;
+  content: "\e972";
+}
+.icon-cloud:before {
+  padding-right: 0.5rem;
+  content: "\e9c1";
+}
+.icon-info:before {
+  padding-right: 0.5rem;
+  content: "\ea0c";
+}
+.icon-twitter:before {
+  padding-right: 0.5rem;
+  content: "\ea96";
+}
+.icon-twitch:before {
+  padding-right: 0.5rem;
+  content: "\ea9f";
+}
