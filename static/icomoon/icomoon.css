@@ -25,10 +25,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-web:before {
-  padding-right: 0.5rem;
-  content: "\e903";
-}
 .icon-brush:before {
   padding-right: 0.5rem;
   content: "\e907";
