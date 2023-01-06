@@ -26,6 +26,7 @@
 }
 
 .icon-back:before {
+  padding-right: 0.5rem;
   content: "\ea40";
 }
 .icon-brush:before {
