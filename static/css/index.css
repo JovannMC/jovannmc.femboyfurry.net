@@ -17,7 +17,7 @@ body {
 img {
     border: 0.2rem solid #474747;
     border-radius: 2rem;
-    width: auto;
+    width: 100%;
 }
 
 @keyframes gradient {
