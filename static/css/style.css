@@ -22,6 +22,12 @@ img {
 
 a { font-size: 1.4rem; }
 
+.navbar-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: black;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;

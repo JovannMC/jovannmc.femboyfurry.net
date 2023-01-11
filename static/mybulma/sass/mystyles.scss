@@ -9,6 +9,18 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+$pink: #f9cde6;
+
+$navbar-background-color: #97d2ef;
+$navbar-item-color: black;
+$navbar-item-hover-background-color: $pink;
+$navbar-dropdown-background-color: #97d2ef;
+$navbar-dropdown-item-hover-background-color: $pink;
+$navbar-dropdown-arrow: $pink;
+$navbar-item-hover-color: black;
+$navbar-dropdown-item-hover-color: black;
+$navbar-dropdown-arrow: black;
+
 $title-color: #363737;
 $title-family: 'Roboto', arial, sans-serif;
 
@@ -16,6 +28,7 @@ $subtitle-color: black;
 $subtitle-family: 'Roboto', arial, sans-serif;
 
 @import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/elements/box.sass";
 @import "../node_modules/bulma/sass/elements/button.sass";
 @import "../node_modules/bulma/sass/elements/container.sass";
