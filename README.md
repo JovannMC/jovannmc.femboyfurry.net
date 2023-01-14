@@ -11,4 +11,4 @@ https://baka.omg.lol<br>
 https://furry.omg.lol
 
 # License
-Please check out [license.md](license.md) to see licenses applied to other files like the Roboto font, bulma CSS, and more!
+Please check out [legalese.md](license.md) to see licenses applied to other files like the Roboto font, bulma CSS, and more!
