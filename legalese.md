@@ -1,4 +1,6 @@
 # License
+*Update on legalese.md is not guaranteed*
+
 ### jovannmc.github.io
 This repository is licensed under `UNLICENSE` License
 > A license with no conditions whatsoever which dedicates works to the public domain. Unlicensed works, modifications, and larger works may be distributed under different terms and without source code.
@@ -11,8 +13,8 @@ Roboto font is licensed under `Apache License Version 2.0` License
 
 This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
 
-### bulma.min.css
-Bulma.min.css is licensed under `MIT` License
+### mybulma
+Almost all `mybulma` related stuff is licensed under `MIT` License
 > A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
 This isn't legal advice, please consider consulting a lawyer and see the full license for all details.
