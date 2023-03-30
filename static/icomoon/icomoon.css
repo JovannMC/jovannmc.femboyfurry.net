@@ -35,7 +35,7 @@
 }
 .icon-brush:before {
   padding-right: 0.5rem;
-  content: "\e907";
+  content: "\e903";
 }
 .icon-game:before {
   padding-right: 0.5rem;
@@ -43,27 +43,27 @@
 }
 .icon-paste:before {
   padding-right: 0.5rem;
-  content: "\e908";
+  content: "\e901";
 }
 .icon-servers:before {
   padding-right: 0.5rem;
-  content: "\e906";
+  content: "\e902";
 }
 .icon-matrix:before {
   padding-right: 0.5rem;
-  content: "\e900";
+  content: "\e907";
 }
 .icon-discord:before {
   padding-right: 0.5rem;
-  content: "\e901";
+  content: "\e906";
 }
 .icon-home:before {
   padding-right: 0.5rem;
-  content: "\e902";
+  content: "\e908";
 }
 .icon-yt:before {
   padding-right: 0.5rem;
-  content: "\e912";
+  content: "\ea9d";
 }
 .icon-book:before {
   padding-right: 0.5rem;
@@ -71,7 +71,7 @@
 }
 .icon-credits:before {
   padding-right: 0.5rem;
-  content: "\e923";
+  content: "\e900";
 }
 .icon-download:before {
   padding-right: 0.5rem;
@@ -99,5 +99,9 @@
 }
 .icon-twitch:before {
   padding-right: 0.5rem;
-  content: "\ea9f";
+  content: "\e910";
+}
+.icon-mastodon:before {
+  padding-right: 0.5rem;
+  content: "\e905";
 }
